@@ -1,1 +1,0 @@
-Only valid test is 2.2/input5
