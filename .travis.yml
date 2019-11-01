@@ -1,0 +1,5 @@
+script:
+ - source ./env.sh
+ - git clone https://github.com/NorthwesternSoftwareConstructionFall19/oracle
+ - source oracle/ci-setup-racket.sh
+ - racket oracle/test-fest/validate-tests.rkt -M $ASSIGN_MAJOR -m $ASSIGN_MINOR -t . -o oracle
