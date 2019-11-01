@@ -1,0 +1,10 @@
+[
+    true,
+    true,
+    false,
+    true,
+    {
+        "B": 2,
+        "W": 1
+    }
+]
